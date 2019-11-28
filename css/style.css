@@ -1,0 +1,16 @@
+body{
+    background-color: cornsilk;
+}
+.chb{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+.chr{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: cornsilk;
+}
+.myform div{
+    padding: 0 15px;
+}

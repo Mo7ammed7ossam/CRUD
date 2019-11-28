@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link href="css/style.css" rel="stylesheet">
+        
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        
+        <!--        input data      -->
+        
+        <section class="dataEntry m-5 bg-dark text-light chr">
+                <form class="d-flex justify-content-between myform">
+                    <div>
+                        <label>Name</label>
+                        <input class="form-control" id="inpName">
+                    </div>
+                    <div>
+                        <label>Age</label>
+                        <input class="form-control" id="inpAge">
+                    </div>
+                    <div>
+                        <label>Salary</label>
+                        <input class="form-control" id="inpSalary">
+                    </div>
+                    <div>
+                        <label>Country</label>
+                        <input class="form-control" id="inpCountry">
+                    </div>
+                    <div class="d-flex align-items-end">
+                        <button type="reset" class="btn btn-primary" id="btnInsert">Insert</button>
+                    </div>
+                    <div class="d-flex align-items-end">
+                        <input class="form-control" id="inpSearch" placeholder="Search">
+                    </div>
+                </form>
+        </section>
+        
+        <!--        output data     -->
+        
+        <section class="dataDisplay m-5 ">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Salary</th>
+                            <th>Country</th>
+                            <th>Delete</th>
+                            <th>Update</th>
+                        </tr>
+                    </thead>
+                    <tbody id="outputdata">
+                        
+                    </tbody>
+                
+                </table>
+                
+        </section>
+  
+    <script src="js/main.js"></script>
+    </body>
+    
+</html>
